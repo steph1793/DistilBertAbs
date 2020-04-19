@@ -1,14 +1,12 @@
 # DistilBertSumm
 
-**This code is entirely based on the work of @nlpyang (https://github.com/nlpyang/PreSumm) which is based on for EMNLP 2019 paper [Text Summarization with Pretrained Encoders](https://arxiv.org/abs/1908.08345)**
+**This code is entirely based on the work of @nlpyang (https://github.com/nlpyang/PreSumm) which is based on EMNLP 2019 paper [Text Summarization with Pretrained Encoders](https://arxiv.org/abs/1908.08345)**
 
-**Updates Jan 22 2020**: Now you can **Summarize Raw Text Input!**. Swith to the dev branch, and use `-mode test_text` and use `-text_src $RAW_SRC.TXT` to input your text file.
-* use `-test_from $PT_FILE$` to use your model checkpoint file.
-* Format of the source text file:
-  * For **abstractive summarization**, each line is a document.
-  * If you want to do **extractive summarization**, please insert ` [CLS] [SEP] ` as your sentence boundaries.
-* There are example input files in the [raw_data directory](https://github.com/nlpyang/PreSumm/tree/dev/raw_data)
-* If you also have reference summaries aligned with your source input, please use `-text_tgt $RAW_TGT.TXT` to keep the order for evaluation.
+Presumm, the original project is based on building summarization models using pretrained encoders, BERT. I was interested in this work in a way of building lighter versions of those models based on distilbert.
+
+My first experiment was to build an extractive summarization model half the size of the orginal BertSumExt. Despite the drastic reduction of size, I reached the same results as BertSumExt (losing 0.5 point at most).
+
+My next experiments will be to build an abstractive summarizartion model and try to achieve state of the art results.
 
 
 Results on CNN/DailyMail (20/8/2019):
