@@ -4,7 +4,7 @@
 
 Presumm, the original project is based on building summarization models using pretrained encoders, BERT. I was interested in this work in a way of building lighter versions of those models based on distilbert.
 
-My first experiment was to build an extractive summarization model half the size of the orginal BertSumExt. Despite the drastic reduction of size, I reached the same results as BertSumExt (losing 0.5 point at most).
+My first experiment was to build an extractive summarization model half the size of the orginal BertSumExt. Despite the drastic reduction of size, I reached the same results as BertSumExt (losing 1 point at most).
 
 My next experiments will be to build an abstractive summarizartion model and try to achieve state of the art results.
 
