@@ -62,10 +62,25 @@ Results on CNN/DailyMail (20/8/2019):
     <td class="tg-0lax">39.18</td>
   </tr>
   <tr>
+    <td class="tg-c3ow" colspan="4">My experiments</td>
+  </tr>
+  <tr>
     <td class="tg-0lax"><b>DistilBertSumExt (mine)<b></td>
     <td class="tg-0lax"><b>42.74<b></td>
     <td class="tg-0lax"><b>19.98<b></td>
     <td class="tg-0lax"><b>39.22<b></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><b>DistilBertSumExtAbs (mine)<b></td>
+    <td class="tg-0lax"><b>--<b></td>
+    <td class="tg-0lax"><b>--<b></td>
+    <td class="tg-0lax"><b>--<b></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><b>DistilBertSumAbs (mine)<b></td>
+    <td class="tg-0lax"><b>--<b></td>
+    <td class="tg-0lax"><b>--<b></td>
+    <td class="tg-0lax"><b>--<b></td>
   </tr>
 </table>
 
