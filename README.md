@@ -62,7 +62,7 @@ Results on CNN/DailyMail (20/8/2019):
     <td class="tg-0lax">39.18</td>
   </tr>
   <tr>
-    <td class="tg-0lax">**DistilBertSumExt (mine)**</td>
+    <td class="tg-0lax"><b>DistilBertSumExt (mine)<b></td>
     <td class="tg-0lax">**42.74**</td>
     <td class="tg-0lax">**19.98**</td>
     <td class="tg-0lax">**39.22**</td>
